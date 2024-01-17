@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Playfair+Display:wght@600&family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+main{
+    background-color: #B9B4C7;
+}
+a {
+    color: #fff;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 8px;
+}
+
+.navbar-container {
+    background-color: #352F44;
+    height: 70px;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+}
+
+.navbar-items li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-items a {
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: rgb(83, 87, 110);
+}
+
+.default-button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(109, 180, 3);
+}
+
+.navbar-items .default-button:hover {
+    background-color: rgb(79, 131, 2);
+    color: #fff;
+}
+
+.main-banner {
+    height: 400px;
+    background-color: #5C5470;
+    padding: 8rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #FAF0E6;
+    text-align: center;
+    text-shadow: #000 1px 1px 1px;
+    font-family: 'Bebas-Neue', serif;
+}
+
+.main-banner h1 {
+    font-size: 52px;
+}
+
+.main-banner p {
+    font-size: 32px;
+}
+
+.services-container {
+    padding: 5rem 0;
+    background-color: #fff;
+}
+
+.services-container ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li {
+    list-style: none;
+    text-align: center;
+    flex: 1 1 200px;
+    padding: 20px;
+}
+
+.fas {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt {
+    color: green;
+}
+
+.fa-rocket {
+    color: red;
+}
+
+.fa-comments {
+    color: rgb(0, 238, 255);
+}
+
+.services-container h3 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price-container {
+    background-color: #B9B4C7;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.price-container h2 {
+    font-size: 34px;
+    padding-top: 30px;
+}
+
+.price-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0;
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+}
+
+.plan a {
+    color: #000;
+}
+
+.plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FAF0E6;
+}
+
+.plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan .plan-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+    padding: 50px 0;
+}
+
+.plan .plan-button {
+    padding: 10px;
+    background-color: rgb(109, 180, 3);
+    height: 75px;
+    line-height: 55px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.plan .plan-button:hover {
+    background-color: rgb(79, 131, 2);
+}
+
+.plan .recommended {
+    background-color: red;
+}
+
+.plan .recommended:hover {
+    background-color: rgb(112, 1, 1);
+}
+.search-container{
+    background-color: #352F44;
+    padding: 5rem 0;
+    text-align: center;
+}
+.search-container h2{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 34px;
+}
+.search-container p{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.search-container input{
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+    border: none;
+}
+.search-container input[type="text"]{
+    width: 60%;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 20px;
+}
+.search-container input[type="submit"]{
+padding: 12px 30px;
+font-size: 16px;
+transition: 0.5s;
+}
+.search-container input[type="submit"]:hover{
+background-color: #b3b3b3;
+cursor: pointer;
+}
+
+.contact-container{
+text-align: center;
+padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2{
+    font-size: 34px;
+}
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contact-container input, .contact-container textarea{
+    width: 200px;
+    padding: 8px 20px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+.contact-container textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 425px;
+    height: 100px;
+}
+.contact-container input[type="submit"]{
+    background-color: #2cc76a;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+}
+footer{
+    text-align: left;
+    background-color: #352F44;
+}
+footer p{
+    color: #fff;
+    margin-left: 8px;
+}
+
+/*responsividade*/
+
+@media (max-width:900px) {
+
+    .plan li{
+        width: 218px;
+    }
+}
+
+@media (max-width:739px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .main-banner p{
+        padding: 0 8px;
+    }
+    
+    .plans-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .plan {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+
+    }
+   
+    .plan li{
+        margin: 0 auto;
+    }
+    .contact-container textarea, .contact-container input{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .navbar-items li{
+        margin-right: 16px;
+    }
+    .services-container ul{
+        flex-direction: column;
+    }
+    .search-container{
+        padding: 60px 2rem;
+    }
+    .search-container h2{
+        font-size:30px;
+    }
+    .search-container p{
+        font-size: 16px;
+    }
+    .search-container input[type="submit"]{
+        padding: 8px 25px;
+        font-size: 16px;
+    }
+    .search-container input[type="text"]{
+        width: 100%;
+        height: 60px;
+    }
+    .contact-container{
+        padding: 40px 2rem;
+    }
+}
+
